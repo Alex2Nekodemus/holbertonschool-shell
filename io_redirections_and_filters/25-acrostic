@@ -1,0 +1,2 @@
+#/bin/bash
+echo $Acrostic | cut -c1 | fmt -w1
