@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltaR | grep ' 0 '
+ls -ltaR | cut -d'0' -f5,8
