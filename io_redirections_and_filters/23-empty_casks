@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ltaR | cut -d'0' -f5,8
+find . -empty | rev | cut -d/ -f1 | rev
